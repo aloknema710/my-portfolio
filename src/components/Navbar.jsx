@@ -36,19 +36,19 @@ const Navbar = () => {
 
   useGSAP(() => {
     // Navbar entrance
-    gsap.from(navRef.current, {
-      y: -60,
-      opacity: 0,
-      duration: 1,
-      ease: "power3.out",
+    gsap.from(navRef.current, {    // navbar slides smoothly from top of screen
+      y: -60,                    // from 60 px above
+      opacity: 0,                 // invisible initially
+      duration: 1,                // time 1s
+      ease: "power3.out",         // smoothness
     });
 
     // Links stagger animation
-    gsap.from(linksRef.current, {
+    gsap.from(linksRef.current, {      // linksRef.current is an array of dom elems..
       y: -15,
       opacity: 0,
       duration: 0.6,
-      stagger: 0.1,
+      stagger: 0.1,                  // creates a wave like entrance effect i.e appears one after other
       delay: 0.3,
       ease: "power2.out",
     });
