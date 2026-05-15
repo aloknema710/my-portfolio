@@ -30,7 +30,7 @@ const Contact = () => {
                     type="text"
                     placeholder='Your Name'
                     className='w-full bg-transparent border-b-2 border-gray-200 py-3 px-1 text-base outline-none
-                      placeholder-gray-300 text-gray-800
+                      placeholder-gray-300 text-gray-200
                       transition-all duration-300 ease-in-out
                       focus:border-black focus:placeholder-gray-400
                       hover:border-gray-400'
@@ -43,7 +43,7 @@ const Contact = () => {
                     type="text"
                     placeholder='Company'
                     className='w-full bg-transparent border-b-2 border-gray-200 py-3 px-1 text-base outline-none
-                      placeholder-gray-300 text-gray-800
+                      placeholder-gray-300 text-gray-200
                       transition-all duration-300 ease-in-out
                       focus:border-black focus:placeholder-gray-400
                       hover:border-gray-400'
@@ -56,7 +56,7 @@ const Contact = () => {
                     type="email"
                     placeholder='Email'
                     className='w-full bg-transparent border-b-2 border-gray-200 py-3 px-1 text-base outline-none
-                      placeholder-gray-300 text-gray-800
+                      placeholder-gray-300 text-gray-200
                       transition-all duration-300 ease-in-out
                       focus:border-black focus:placeholder-gray-400
                       hover:border-gray-400'
@@ -69,7 +69,7 @@ const Contact = () => {
                     placeholder='Tell us about your project'
                     rows={4}
                     className='w-full bg-transparent border-b-2 border-gray-200 py-3 px-1 text-base outline-none resize-none
-                      placeholder-gray-300 text-gray-800
+                      placeholder-gray-300 text-gray-200
                       transition-all duration-300 ease-in-out
                       focus:border-black focus:placeholder-gray-400
                       hover:border-gray-400'

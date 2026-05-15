@@ -31,23 +31,23 @@ const Strip = () => {
     <div className='overflow-hidden w-full'>
         <div ref={stripref} className='flex w-max p-10 gap-10'>
             <div className='flex items-center'>
-                <h1 className='text-4xl'>Thrive Beyond 🧑‍💻 Plain CSS</h1>
+                <h1 className='text-4xl'>Thrive Beyond 🧑‍💻 Generic and old style Development</h1>
                 <img className='w-35' src={ImageCSS} alt="" />
             </div>
             <div className='flex items-center'>
-                <h1 className='text-4xl'>Thrive Beyond 🧑‍💻 Plain CSS</h1>
+                <h1 className='text-4xl'>Thrive Beyond 🧑‍💻 Generic and old style Development</h1>
                 <img className='w-35' src={ImageCSS} alt="" />
             </div>
             <div className='flex items-center'>
-                <h1 className='text-4xl'>Thrive Beyond 🧑‍💻 Plain CSS</h1>
+                <h1 className='text-4xl'>Thrive Beyond 🧑‍💻 Generic and old style Development</h1>
                 <img className='w-35' src={ImageCSS} alt="" />
             </div>
             <div className='flex items-center'>
-                <h1 className='text-4xl'>Thrive Beyond 🧑‍💻 Plain CSS</h1>
+                <h1 className='text-4xl'>Thrive Beyond 🧑‍💻 Generic and old style Development</h1>
                 <img className='w-35' src={ImageCSS} alt="" />
             </div>
             <div className='flex items-center'>
-                <h1 className='text-4xl'>Thrive Beyond 🧑‍💻 Plain CSS</h1>
+                <h1 className='text-4xl'>Thrive Beyond 🧑‍💻 Generic and old style Development</h1>
                 <img className='w-35' src={ImageCSS} alt="" />
             </div>
         </div>

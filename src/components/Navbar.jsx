@@ -62,7 +62,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center px-8 py-8">
         {/* Logo */}
-        <div className="flex items-center gap-3 cursor-pointer">
+        <a href="/" className="flex items-center gap-3 cursor-pointer">
           <img
             src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg"
             className="h-10 w-10 rounded-full object-cover"
@@ -71,7 +71,7 @@ const Navbar = () => {
           <span className="text-[#e2e8f0] text-lg font-semibold tracking-wide">
             Brand
           </span>
-        </div>
+        </a>
 
         {/* Menu */}
         <div className="flex items-center gap-10 text-[#e2e8f0] font-medium">
