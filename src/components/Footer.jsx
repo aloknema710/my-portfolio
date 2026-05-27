@@ -10,10 +10,10 @@ const Footer = () => {
       <HaloBackground />
 
       {/* Cinematic overlays */}
-      <div className="absolute inset-0 bg-black/40 z-[1]" />
+      <div className="absolute inset-0 bg-black/40 z-1" />
 
       <div
-        className="absolute inset-0 z-[1]"
+        className="absolute inset-0 z-1"
         style={{
           background:
             "radial-gradient(circle at top, rgba(201,169,110,0.12), transparent 45%)",
@@ -53,7 +53,7 @@ const Footer = () => {
                   absolute
                   left-0
                   bottom-0
-                  h-[1px]
+                  h-px
                   w-0
                   bg-[#d6b57a]
                   transition-all
@@ -195,7 +195,7 @@ const Footer = () => {
                     absolute
                     left-0
                     -bottom-2
-                    h-[1px]
+                    h-px
                     w-0
                     bg-[#d6b57a]
                     transition-all

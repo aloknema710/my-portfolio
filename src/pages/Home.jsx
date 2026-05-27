@@ -4,6 +4,7 @@ import Footer from "../components/Footer.jsx";
 import Processes from "../components/Processes.jsx";
 import Experience from "../components/Experience.jsx";
 import Info from "../components/Info.jsx";
+import Section from "../components/Lenis.jsx";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
           <div className="bg-slate-500 h-40 w-40"></div>
         </div> */}
       <Info/>
+      {/* <Section/> */}
       <div className="min-h-screen bg-amber-500"></div>
       <Experience/>
       <Processes/>
