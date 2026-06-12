@@ -12,17 +12,18 @@ const Hero = () => {
     const isMobile = useMediaQuery({maxWidth: 853})
   return (
     // <div className='h-screen flex items-start md:items-start md:justify-start overflow-hidden c-space'>
-    <div className='relative h-screen flex items-start md:justify-start overflow-hidden c-space'>
+    <div className='relative min-h-screen flex items-start md:justify-start overflow-hidden'>
         <HeroText/>
         <ParallexBg/>
-        <figure
-          className=' absolute inset-0' style={{width:"100vw",height:"100vh"}}>
+        {/* <figure
+          className=' absolute inset-0' style={{width:"100vw",height:"100vh"}}> */}
+        <figure className="absolute inset-0 w-full h-full">
             <Canvas>
               <Suspense fallback={<Loader/>}>
 
               <Float>
-                <Astronaut scale={isMobile && 0.23} position={isMobile && 0.23}/>
-                <OrbitControls/>
+                <Astronaut scale={isMobile && 0.23} position={isMobile && [0, -1.5, 0]}/>
+                {/* <OrbitControls/> */}
                 <Rig/>
               </Float>
               </Suspense>

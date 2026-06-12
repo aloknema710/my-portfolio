@@ -5,12 +5,14 @@ import Projects from './pages/Projects'
 import Services from './pages/Services'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import Cursor from './components/Cursor'
 
 const App = () => {
 
     
   return (
     <div>
+      <Cursor/>
       <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/projects' element={<Projects/>}/>

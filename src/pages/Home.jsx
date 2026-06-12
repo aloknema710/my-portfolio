@@ -6,7 +6,7 @@ import Experience from "../components/Experience.jsx";
 import Info from "../components/Info.jsx";
 import Section from "../components/Lenis.jsx";
 import Hero from "../components/Hero.jsx";
-
+// https://github.com/Ali-Sanati/Portfolio/blob/main/src/components/Loader.jsx
 const Home = () => {
   return (
     <div className="pt-20">
@@ -16,7 +16,7 @@ const Home = () => {
           <div className="bg-blue-500 h-40 w-40"></div>
           <div className="bg-slate-500 h-40 w-40"></div>
         </div> */}
-      <div className="pt-8">
+      <div className="pt-2">
         <Hero/>
       </div>
       <Info/>

@@ -106,7 +106,7 @@ const Processes = () => {
 
   return (
     <div
-      className="p-5 min-h-screen relative m-20"
+      className="px-4 py-10 md:px-10 lg:px-20 min-h-screen relative m-20"
       onMouseMove={handleMouseMove}
     >
       {/* Floating Preview */}
@@ -138,8 +138,8 @@ const Processes = () => {
       )}
 
       {/* Title */}
-      <div className="p-5 m-10 text-5xl">
-        <h1>Our Processes</h1>
+      <div className="py-5">
+        <h1 className="text-3xl md:text-5xl font-bold">Our Processes</h1>
       </div>
 
       <hr />
@@ -154,7 +154,19 @@ const Processes = () => {
               <hr />
 
               <div
-                className="h-60 flex flex-row justify-between gap-20 items-center"
+                // className="h-60 flex flex-row justify-between gap-20 items-center"
+                className="
+                  min-h-[220px]
+                  flex
+                  flex-col
+                  md:flex-row
+                  justify-between
+                  items-start
+                  md:items-center
+                  gap-6
+                  md:gap-20
+                  py-8
+                  "
                 onMouseEnter={() => setHovered(step.id)}
                 onMouseLeave={() => setHovered(null)}
               >
@@ -165,9 +177,10 @@ const Processes = () => {
                   </h2>
                 )}
 
-                <div className="flex flex-col py-5 m-7 gap-3 max-w-xl">
-                  <h3 className="text-xl font-semibold">{step.title}</h3>
-                  <p className="text-3xl">{step.text}</p>
+                {/* <div className="flex flex-col py-5 m-7 gap-3 max-w-xl"> */}
+                <div className="flex flex-col gap-3 max-w-xl">
+                  <h3 className="text-lg md:text-xl font-semibold">{step.title}</h3>
+                  <p className="text-lg md:text-2xl lg:text-3xl leading-relaxed">{step.text}</p>
                 </div>
 
                 {/* Right side */}

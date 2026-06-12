@@ -6,7 +6,7 @@ const Info = () => {
       <div className="max-w-4xl text-center">
         
         {/* Heading */}
-        <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
+        <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6 cursor-hover">
           From <span className="text-transparent bg-clip-text bg-linear-to-r from-purple-400 to-pink-500">Identity</span> to Experience
         </h1>
 

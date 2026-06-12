@@ -143,11 +143,11 @@ const Section = () => {
                 flex flex-col items-center justify-center
                 bg-black/40 text-white pointer-events-none"
         >
-          <h1 className="text-6xl mb-4">Biggest Text Field</h1>
-          <h2 className="text-5xl">Smaller Text Field</h2>
+          <h1 className="text-1xl md:text-6xl mb-4">Complete End to End Software Development</h1>
+          <h2 className="text-1xl md:text-5xl">With Gen Ai, Data Science and Analytics</h2>
         </div>
         <div className="w-full h-screen bg-[#D1D1D1] mx-auto py-98 relative flex items-center justify-center z-999 text-center">
-          <p className="text-black text-5xl leading-[3.2rem] w-3/4 font-regular">
+          <p className="text-black text-2xl md:text-5xl leading-[3.2rem] w-3/4 font-regular">
             Thomas Vance is a renowned clothing brand known for its exceptional
             fashion and unique designs. Our collections are crafted with the
             finest materials and attention to detail, ensuring that each piece
