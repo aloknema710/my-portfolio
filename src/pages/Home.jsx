@@ -6,6 +6,7 @@ import Experience from "../components/Experience.jsx";
 import Info from "../components/Info.jsx";
 import Section from "../components/Lenis.jsx";
 import Hero from "../components/Hero.jsx";
+import TechStack from "../components/TechStack.jsx";
 // https://github.com/Ali-Sanati/Portfolio/blob/main/src/components/Loader.jsx
 const Home = () => {
   return (
@@ -21,7 +22,9 @@ const Home = () => {
       </div>
       <Info/>
       {/* <Section/> */}
-      <div className="min-h-screen bg-amber-500"></div>
+      <div className="min-h-screen bg-[#050816] text-white">
+        <TechStack/>
+      </div>
       <Experience/>
       <Processes/>
       <Footer />
