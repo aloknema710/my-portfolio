@@ -46,7 +46,7 @@ const Cursor = () => {
     <>
       {/* OUTER GLOW RING */}
       <motion.div
-        className="fixed top-0 left-0 z-[9999] pointer-events-none"
+        className="fixed top-0 left-0 z-[9999] pointer-events-none"         //pointer-events-none makes the cursor invisible to mouse interactions
         animate={{
           x: pos.x - (hovered ? 35 : 20),
           y: pos.y - (hovered ? 35 : 20),

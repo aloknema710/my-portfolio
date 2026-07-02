@@ -27,15 +27,15 @@ const Projects = () => {
     });
   });
 
-  useGSAP(() => {
-    gsap.from(".project-card", {
-      opacity: 0,
-      y: 100,
-      duration: 1,
-      stagger: 0.15,
-      ease: "power4.out",
-    });
-  }, []);
+  // useGSAP(() => {
+  //   gsap.from(".project-card", {
+  //     opacity: 0,
+  //     y: 100,
+  //     duration: 1,
+  //     stagger: 0.15,
+  //     ease: "power4.out",
+  //   });
+  // }, []);
 
   return (
     <div className="min-h-screen bg-[#050816] text-white overflow-hidden">

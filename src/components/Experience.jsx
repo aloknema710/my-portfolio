@@ -62,7 +62,8 @@ const Experience = () => {
         ref={textRef}
         className="flex w-max whitespace-nowrap"
       >
-        <h1 className="text-[25vw] leading-none">
+        <h1 className="text-[25vw] leading-none bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 
+          bg-clip-text text-transparent">
           Experience Development with AI
         </h1>
       </div>

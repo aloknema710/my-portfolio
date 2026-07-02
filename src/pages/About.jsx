@@ -32,7 +32,7 @@ const About = () => {
             </h2>
 
             <p className="mx-auto mt-6 max-w-3xl text-lg leading-relaxed text-zinc-400">
-              I'm a Full Stack Developer passionate about creating scalable web
+              I'm a Full Stack Software Developer passionate about creating scalable web
               applications, interactive user experiences, and data-driven
               solutions. I enjoy turning complex problems into simple, elegant,
               and efficient products.
